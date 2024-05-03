@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:maplestoryapp/button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,6 +43,14 @@ class _HomePageState extends State<HomePage> {
           Expanded(
             child: Container(
               color: Colors.black54,
+              child: Row(
+                children: [
+                  MyButton(
+                    text: 'PLAY',
+                    function: () {},
+                  ),
+                ],
+              ),
             ),
           ),
         ],
