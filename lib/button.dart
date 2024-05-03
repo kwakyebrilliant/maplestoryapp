@@ -20,6 +20,7 @@ class MyButton extends StatelessWidget {
               child: Icon(
                 icon,
                 color: Colors.black54,
+                size: 18.0,
               ),
             ),
           ),
