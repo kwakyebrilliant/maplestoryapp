@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
-  const MyButton({super.key, this.text, this.function});
-  final text;
+  const MyButton({super.key, this.icon, this.function});
+  final icon;
   final function;
 
   @override
@@ -17,11 +17,9 @@ class MyButton extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             color: Colors.grey[300],
             child: Center(
-              child: Text(
-                text,
-                style: const TextStyle(
-                  color: Colors.black54,
-                ),
+              child: Icon(
+                icon,
+                color: Colors.black54,
               ),
             ),
           ),
