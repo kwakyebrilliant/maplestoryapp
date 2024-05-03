@@ -49,6 +49,22 @@ class _HomePageState extends State<HomePage> {
                     text: 'PLAY',
                     function: () {},
                   ),
+                  MyButton(
+                    text: 'ATTACK',
+                    function: () {},
+                  ),
+                  MyButton(
+                    text: 'LEFT',
+                    function: () {},
+                  ),
+                  MyButton(
+                    text: 'JAUMP',
+                    function: () {},
+                  ),
+                  MyButton(
+                    text: 'RIGHT',
+                    function: () {},
+                  ),
                 ],
               ),
             ),
