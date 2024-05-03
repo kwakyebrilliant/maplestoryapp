@@ -43,27 +43,38 @@ class _HomePageState extends State<HomePage> {
           Expanded(
             child: Container(
               color: Colors.black54,
-              child: Row(
+              child: Column(
                 children: [
-                  MyButton(
-                    text: 'PLAY',
-                    function: () {},
+                  Text(
+                    'M A P L E S T O R Y   A P P',
+                    style: const TextStyle(
+                      color: Colors.white,
+                    ),
                   ),
-                  MyButton(
-                    text: 'ATTACK',
-                    function: () {},
-                  ),
-                  MyButton(
-                    text: 'LEFT',
-                    function: () {},
-                  ),
-                  MyButton(
-                    text: 'JAUMP',
-                    function: () {},
-                  ),
-                  MyButton(
-                    text: 'RIGHT',
-                    function: () {},
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      MyButton(
+                        text: 'PLAY',
+                        function: () {},
+                      ),
+                      MyButton(
+                        text: 'ATTACK',
+                        function: () {},
+                      ),
+                      MyButton(
+                        text: 'LEFT',
+                        function: () {},
+                      ),
+                      MyButton(
+                        text: 'JAUMP',
+                        function: () {},
+                      ),
+                      MyButton(
+                        text: 'RIGHT',
+                        function: () {},
+                      ),
+                    ],
                   ),
                 ],
               ),
