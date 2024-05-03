@@ -45,9 +45,9 @@ class _HomePageState extends State<HomePage> {
               color: Colors.black54,
               child: Column(
                 children: [
-                  Text(
+                  const Text(
                     'M A P L E S T O R Y   A P P',
-                    style: const TextStyle(
+                    style: TextStyle(
                       color: Colors.white,
                     ),
                   ),
@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
                         function: () {},
                       ),
                       MyButton(
-                        icon: Icons.play_arrow,
+                        icon: Icons.fire_hydrant,
                         function: () {},
                       ),
                       MyButton(
