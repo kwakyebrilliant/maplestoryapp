@@ -54,22 +54,31 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
+                      //play button
                       MyButton(
                         icon: Icons.play_arrow,
                         function: () {},
                       ),
+
+                      //attack button
                       MyButton(
                         icon: Icons.fire_hydrant,
                         function: () {},
                       ),
+
+                      //left button
                       MyButton(
                         icon: Icons.arrow_back,
                         function: () {},
                       ),
+
+                      //jump button
                       MyButton(
                         icon: Icons.arrow_upward,
                         function: () {},
                       ),
+
+                      //right button
                       MyButton(
                         icon: Icons.arrow_forward,
                         function: () {},
