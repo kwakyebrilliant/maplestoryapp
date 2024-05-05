@@ -44,7 +44,9 @@ class _HomePageState extends State<HomePage> {
             child: Container(
               color: Colors.black54,
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  //header text
                   const Text(
                     'M A P L E S T O R Y   A P P',
                     style: TextStyle(
