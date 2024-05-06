@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Column(
         children: [
+          //first expanded
           Expanded(
             flex: 3,
             child: Container(
