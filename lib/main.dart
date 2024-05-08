@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.green[500],
           ),
 
-          //first expanded
+          //second expanded
           Expanded(
             child: Container(
               color: Colors.black54,
