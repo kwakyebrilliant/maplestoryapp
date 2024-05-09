@@ -56,6 +56,8 @@ class _HomePageState extends State<HomePage> {
                       color: Colors.white,
                     ),
                   ),
+
+                  //row containing buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
